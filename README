@@ -1,0 +1,4 @@
+For the BERT evaluation, I've created copies of the initial evaluation functions as <eval_function>_bert(). These BERT functions will run if the string "BERT" is passed when running the evaluation script. 
+
+For the BERT embeddings, I'm using the single CLS token for the sentence embeddings.
+For the word level embedding, I'm ignoring the first CLS and last SEP tokens, adding the remianing vectors and taking the average. 
